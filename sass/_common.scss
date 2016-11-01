@@ -1,0 +1,61 @@
+$fontSize:64;
+@function px2Rem($i){
+  @return $i/$fontSize + rem;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+.header{
+  height: px2Rem(88);
+  width: px2Rem(640);
+  font-weight: bold;
+  background-color: #a90506;
+  color:#fff;
+  .header_left{
+    padding-top: px2Rem(20);
+    height: px2Rem(68);
+    width: px2Rem(200);
+    margin-left: px2Rem(24);
+    float: left;
+    img{
+      height: px2Rem(40);
+      width: px2Rem(42);
+    }
+  }
+  .header_right{
+    height: px2Rem(88);
+    width: px2Rem(200);
+    float: right;
+    a{
+      color:#fff;
+      font-size: px2Rem(28);
+      height: px2Rem(60);
+      width: px2Rem(80);
+      margin-top: px2Rem(14);
+      line-height: px2Rem(60);
+      float: left;
+      background-color: #cd0708;
+      border-radius: px2Rem(8);
+      margin-right: px2Rem(10);
+      text-align: center;
+    }
+    a.userN{
+      display: none;
+      overflow: hidden;
+      white-space:nowrap;
+      text-overflow: ellipsis;
+    }
+    a.unLogin{
+      display: none;
+    }
+  }
+  .header_center{
+    height: px2Rem(88);
+    float: left;
+    font-size: px2Rem(36);
+    line-height: px2Rem(88);
+    margin: 0 auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="../bower_components/lib-flexible/build/flexible_css.js"></script>
+    <script src="../bower_components/lib-flexible/build/flexible.js"></script>
+    <link rel="stylesheet" href="../sass/register.css">
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/regExpManger.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header_left">
+        <a href="login.html">
+            <img src="../images/goback.png" alt="">
+        </a>
+    </div>
+    <div class="header_right">
+    </div>
+    <div class="header_center">
+        用户注册
+    </div>
+</div>
+<div class="container">
+    <form class="form">
+        <div class="box">
+            <label for="userName">账户名称 :</label>
+            <input type="text" id="userName" placeholder="请输入账户">
+            <div class="tip">
+                <span>用户名错误</span>
+            </div>
+        </div>
+        <div class="box">
+            <label for="pwd">登陆密码 :</label>
+            <input type="password" id="pwd" placeholder="登陆密码">
+            <div class="tip">
+                <span>密码不得少于6位</span>
+            </div>
+        </div>
+        <div class="box">
+            <label for="tpwd">确认密码 :</label>
+            <input type="password" id="tpwd" placeholder="确认密码">
+            <div class="tip">
+                <span>密码不一致</span>
+            </div>
+        </div>
+        <div class="box btn" id="btn">
+            确定注册
+        </div>
+
+    </form>
+</div>
+<script src="../js/register.js"></script>
+</body>
+</html>

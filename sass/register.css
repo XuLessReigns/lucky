@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  height: 1.375rem;
+  width: 10rem;
+  font-weight: bold;
+  background-color: #a90506;
+  color: #fff; }
+  .header .header_left {
+    padding-top: 0.3125rem;
+    height: 1.0625rem;
+    width: 3.125rem;
+    margin-left: 0.375rem;
+    float: left; }
+    .header .header_left img {
+      height: 0.625rem;
+      width: 0.65625rem; }
+  .header .header_right {
+    height: 1.375rem;
+    width: 3.125rem;
+    float: right; }
+    .header .header_right a {
+      color: #fff;
+      font-size: 0.4375rem;
+      height: 0.9375rem;
+      width: 1.25rem;
+      margin-top: 0.21875rem;
+      line-height: 0.9375rem;
+      float: left;
+      background-color: #cd0708;
+      border-radius: 0.125rem;
+      margin-right: 0.15625rem;
+      text-align: center; }
+    .header .header_right a.userN {
+      display: none;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+    .header .header_right a.unLogin {
+      display: none; }
+  .header .header_center {
+    height: 1.375rem;
+    float: left;
+    font-size: 0.5625rem;
+    line-height: 1.375rem;
+    margin: 0 auto;
+    text-align: center; }
+
+.container {
+  height: 13.625rem;
+  width: 10rem;
+  background-color: #f3eff0;
+  overflow: hidden; }
+  .container .box {
+    position: relative;
+    height: 1.34375rem;
+    width: 9.0625rem;
+    border-radius: 0.125rem;
+    background-color: #fff;
+    margin: 0.46875rem auto;
+    line-height: 1.34375rem; }
+    .container .box label {
+      display: inline-block;
+      text-indent: 0.3125rem; }
+    .container .box input {
+      border: 0; }
+    .container .box .tip {
+      position: absolute;
+      left: 0rem;
+      bottom: 0rem;
+      height: 0.46875rem;
+      width: 100%;
+      display: none; }
+      .container .box .tip span {
+        color: red;
+        height: 0.46875rem;
+        line-height: 0.46875rem;
+        font-size: 0.34375rem; }
+    .container .box .tip.default span {
+      color: #ccc; }
+  .container .box.error {
+    box-sizing: border-box;
+    border: 0.01563rem solid red; }
+  .container .box.default {
+    box-sizing: border-box;
+    border: 0.01563rem solid green; }
+  .container .btn {
+    background-color: #c00607;
+    text-align: center;
+    color: #fff;
+    margin-top: 2.34375rem;
+    font-size: 0.53125rem;
+    font-weight: bold; }
+
+/*# sourceMappingURL=register.css.map */

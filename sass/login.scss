@@ -1,0 +1,68 @@
+$fontSize:64;
+@function px2Rem($i){
+  @return $i/$fontSize + rem;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+.header{
+  text-align: center;
+  height: px2Rem(88);
+  width: px2Rem(640);
+  font-weight: bold;
+  background-color: #a90506;
+  color:#fff;
+  font-size: px2Rem(36);
+  line-height: px2Rem(88);
+}
+.container{
+  height: px2Rem(847);
+  width: px2Rem(640);
+  background-color: #f3eff0;
+  overflow: hidden;
+  padding-top: px2Rem(25);
+  .box{
+    height: px2Rem(86);
+    width: px2Rem(580);
+    border-radius: px2Rem(8);
+    background-color: #fff;
+    margin: px2Rem(5) auto;
+    line-height: px2Rem(86);
+    input{
+      border: 0;
+      text-indent: px2Rem(30);
+    }
+  }
+  .box.default{
+    background-color: #f3eff0;
+    input{
+      display: inline-block;
+      vertical-align: middle;
+      height: px2Rem(40);
+      width: px2Rem(40);
+      border: px2Rem(3) solid #5b5b5b;
+    }
+    span{
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+    label{
+      margin: 0 px2Rem(20);
+    }
+  }
+  .btn1{
+    background-color: #c00607;
+  }
+  .btn2{
+    background-color: #434343;
+  }
+  .box.btn{
+    text-align: center;
+    color: #fff;
+    margin-top: px2Rem(20);
+    font-size: px2Rem(34);
+    font-weight: bold;
+  }
+}

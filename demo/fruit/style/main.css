@@ -1,0 +1,5 @@
+#gameBox{ width: 600px; height: 600px; background: #eee;}
+#gameBox .box{ position: relative; float: left; width: 195px; height: 200px; margin-right: 1px; margin-bottom: 1px; background: #600;}
+#gameBox .box span{position:absolute;width:100%; height: 100%; transition: all .33s;}
+#gameBox .box .front{ background: #eeee66; backface-visibility:hidden;transform: rotateY(0deg);}
+#gameBox .box .back{background: #666600;backface-visibility:hidden;transform: rotateY(180deg);}

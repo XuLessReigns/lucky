@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../bags/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<script>
+		/*
+		 * 
+		 *  翻牌抽奖要求，页面初始化，展示所有奖品，
+		 3秒后所有奖品翻转，用户可以开始点击抽奖，
+		 点中奖项翻转会正面，奖品随机。
+		 并根据接口，提交抽奖数据。前提用户必须在登录状态，
+		 如没有登陆则跳转到登录页面。
+		 * 
+		 * 
+		 * 
+		*/
+		
+		
+//			function callback(data){
+//				console.log(data);
+//			}
+
+			//jsonp第一种方法,个jquery版本通用
+//			$.ajax({
+//				url:"http://datainfo.duapp.com/lottery/getsuerfr.php",
+//				dataType:"jsonp",
+//				success:function(data){
+//					console.log(data);
+//				}
+//				
+//			});
+			//jsonp第二种方法，1.8以后版本可用
+			$.getJSON("http://datainfo.duapp.com/lottery/getsuerfr.php?callback=?",function(data){
+				console.log(data);
+			})
+		</script>
+		<!--<script src="http://datainfo.duapp.com/lottery/getsuerfr.php?user=aaaa"></script>-->
+	</body>
+</html>

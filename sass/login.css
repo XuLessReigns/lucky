@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  text-align: center;
+  height: 1.375rem;
+  width: 10rem;
+  font-weight: bold;
+  background-color: #a90506;
+  color: #fff;
+  font-size: 0.5625rem;
+  line-height: 1.375rem; }
+
+.container {
+  height: 13.23438rem;
+  width: 10rem;
+  background-color: #f3eff0;
+  overflow: hidden;
+  padding-top: 0.39063rem; }
+  .container .box {
+    height: 1.34375rem;
+    width: 9.0625rem;
+    border-radius: 0.125rem;
+    background-color: #fff;
+    margin: 0.07813rem auto;
+    line-height: 1.34375rem; }
+    .container .box input {
+      border: 0;
+      text-indent: 0.46875rem; }
+  .container .box.default {
+    background-color: #f3eff0; }
+    .container .box.default input {
+      display: inline-block;
+      vertical-align: middle;
+      height: 0.625rem;
+      width: 0.625rem;
+      border: 0.04688rem solid #5b5b5b; }
+    .container .box.default span {
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%; }
+    .container .box.default label {
+      margin: 0 0.3125rem; }
+  .container .btn1 {
+    background-color: #c00607; }
+  .container .btn2 {
+    background-color: #434343; }
+  .container .box.btn {
+    text-align: center;
+    color: #fff;
+    margin-top: 0.3125rem;
+    font-size: 0.53125rem;
+    font-weight: bold; }
+
+/*# sourceMappingURL=login.css.map */

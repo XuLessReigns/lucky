@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="../bower_components/lib-flexible/build/flexible_css.js"></script>
+    <script src="../bower_components/lib-flexible/build/flexible.js"></script>
+    <link rel="stylesheet" href="../sass/login.css">
+    <script src="../js/jquery-1.12.4.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header_center">
+        开心摇摇用户登录
+    </div>
+</div>
+<div class="container">
+    <div class="box">
+        <input type="text" id="user" placeholder="请输入账户">
+    </div>
+    <div class="box">
+        <input type="password" id="pwd" placeholder="请输入密码">
+    </div>
+    <div class="box default">
+        <input type="checkbox" id="check"><label for="check">显示密码</label>
+        <span></span>
+        <a href="javascript:;" style="color:#ff0f54">忘记密码？</a>
+    </div>
+    <div class="box default">
+        <input type="checkbox" id="autoPlay"><label for="autoPlay">记住密码自动登录</label>
+        <span></span>
+    </div>
+    <div class="box btn btn1" id="btn1">
+        登录
+    </div>
+    <div class="box btn btn2" id="btn2">
+        <a href="register.html" style="color: #fff">注册</a>
+    </div>
+</div>
+<script src="../js/login.js"></script>
+</body>
+</html>

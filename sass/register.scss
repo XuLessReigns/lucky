@@ -1,0 +1,58 @@
+@import "common";
+.container{
+  height: px2Rem(872);
+  width: px2Rem(640);
+  background-color: #f3eff0;
+  overflow: hidden;
+  .box{
+    position: relative;
+    height: px2Rem(86);
+    width: px2Rem(580);
+    border-radius: px2Rem(8);
+    background-color: #fff;
+    margin: px2Rem(30) auto;
+    line-height: px2Rem(86);
+    label{
+      display: inline-block;
+      text-indent: px2Rem(20);
+    }
+    input{
+      border: 0;
+    }
+    .tip{
+      position: absolute;
+      left: px2Rem(0);
+      bottom: px2Rem(0);
+      height: px2Rem(30);
+      width: 100%;
+      display: none;
+      span{
+        color: red;
+        height: px2Rem(30);
+        line-height: px2Rem(30);
+        font-size: px2Rem(22);
+      }
+    }
+    .tip.default{
+      span{
+        color: #ccc;
+      }
+    }
+  }
+  .box.error{
+    box-sizing: border-box;
+    border: px2Rem(1) solid red;
+  }
+  .box.default{
+    box-sizing: border-box;
+    border: px2Rem(1) solid green;
+  }
+  .btn{
+    background-color: #c00607;
+    text-align: center;
+    color: #fff;
+    margin-top: px2Rem(150);
+    font-size: px2Rem(34);
+    font-weight: bold;
+  }
+}
