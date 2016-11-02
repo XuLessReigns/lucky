@@ -1,7 +1,5 @@
 //查看是否有用户记住登入密码
-function define() {
 
-}
 function autoPlay(){
    // var a = window.localStorage["user"];
     //var b = JSON.parse(a);
